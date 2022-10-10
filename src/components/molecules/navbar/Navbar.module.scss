@@ -1,7 +1,24 @@
 @import '../../../styles/variables.scss';
 
 .nav_wrapper {
-  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.89rem;
   background-color: $lightShadow;
   filter: drop-shadow(3px 0px 20px #fff);
+}
+
+.right_nav__items {
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: 3rem;
+  }
+
+  img {
+    margin-left: 1.8rem;
+    margin-right: 0.7rem;
+    border-radius: 50%;
+  }
 }

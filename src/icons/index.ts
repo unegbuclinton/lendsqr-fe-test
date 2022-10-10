@@ -1,3 +1,4 @@
+export { ReactComponent as DPIconArrowDown } from '../icons/svgs/arrowDown.svg';
 export { ReactComponent as DPIconBriefCase } from '../icons/svgs/briefcase.svg';
 export { ReactComponent as DPIcondashBoardLogo } from '../icons/svgs/dashboardLogo.svg';
 export { ReactComponent as DPIcondropdownIcon } from '../icons/svgs/dropdownIcon.svg';
@@ -11,5 +12,7 @@ export { ReactComponent as DPIconNotification } from '../icons/svgs/notification
 export { ReactComponent as DPIconPiggyBank } from '../icons/svgs/piggy-bank.svg';
 export { ReactComponent as DPIconLoginLogo } from '../icons/svgs/registrationLogo.svg';
 export { ReactComponent as DPIconSack } from '../icons/svgs/sack.svg';
+export { ReactComponent as DPIconSearchIcon } from '../icons/svgs/search-icon.svg';
 export { ReactComponent as DPIconUser } from '../icons/svgs/user.svg';
+export { ReactComponent as DPIconUsersIcon } from '../icons/svgs/users.svg';
 export { ReactComponent as DPIconWhiteList } from '../icons/svgs/whitelist.svg';

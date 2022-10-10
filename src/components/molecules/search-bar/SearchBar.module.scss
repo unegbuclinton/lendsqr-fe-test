@@ -1,0 +1,22 @@
+@import '../../../styles/variables.scss';
+
+.search_bar__wrapper {
+  position: relative;
+  display: flex;
+  height: 2.8rem;
+  width: 25rem;
+
+  input {
+    width: 100%;
+    border-right: none;
+    background: #ffffff;
+    opacity: 0.2;
+    border: 1px solid #213f7d;
+    border-radius: 8px;
+  }
+}
+
+.search_icon {
+  background-color: $eggBlue;
+  padding: 0 1rem;
+}
