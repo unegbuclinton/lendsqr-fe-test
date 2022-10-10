@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+.login_wrapper {
+  padding: 3rem 10rem 0 4.5rem;
+
+  header {
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+  }
+
+  .login_body {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+  }
+
+  form {
+    height: 450px;
+    flex: 55%;
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      color: $cornflowerBlue;
+      margin: 0;
+    }
+    p {
+      font-size: 2rem;
+      font-weight: 400;
+      color: $indep;
+      line-height: 2.732rem;
+      margin-top: 1rem;
+      margin-bottom: 50px;
+    }
+
+    span {
+      font-size: 1.2rem;
+      color: $eggBlue;
+      font-weight: 600;
+    }
+
+    .button_style {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: $eggBlue;
+      color: $light;
+      margin-top: 1.5rem;
+      padding: 1.4rem;
+      border-radius: $border-radius_md;
+    }
+  }
+}

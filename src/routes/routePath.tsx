@@ -1,4 +1,7 @@
 import { Outlet } from 'react-router-dom';
+import SideBar from '../components/molecules/sidebar/SideBar';
+import Dashboard from '../pages/dashboard/Dashboard';
+import Login from '../pages/loginPage/Login';
 
 export const privateRoutes = [
   {
@@ -22,10 +25,18 @@ export const privateRoutes = [
 ];
 
 export const publicRoutes = [
-  // {
-  //   path: '/login',
-  //   element: <LogIn />
-  // },
+  {
+    path: '/',
+    element: <Login />,
+  },
+  {
+    path: '/dashboard',
+    element: <Dashboard />,
+  },
+  {
+    path: '/test',
+    element: <SideBar />,
+  },
   {
     path: '/sign',
     element: <div>Public</div>,
