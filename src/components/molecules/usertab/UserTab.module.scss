@@ -1,0 +1,49 @@
+@import '../../../styles/variables.scss';
+
+.user_card__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  background: #ffffff;
+  //   border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+
+  .user_info {
+    padding-right: 1.5rem;
+
+    h1 {
+      margin-bottom: 0.4rem;
+      color: $cornflowerBlue;
+    }
+    p {
+      margin: 0;
+      color: $indep;
+    }
+  }
+
+  .tier_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.5rem;
+    border-right: 1px solid $indepShadow;
+    border-left: 1px solid $indepShadow;
+  }
+
+  .user_record {
+    p {
+      font-size: 1.6rem;
+      color: $cornflowerBlue;
+      margin: 0;
+    }
+
+    span {
+      font-size: 0.8rem;
+      color: $cornflowerBlue;
+    }
+  }
+}

@@ -6,12 +6,18 @@ interface Props {
   type: string;
   className?: string;
   inputClass?: string;
-  onChange?: (e: any) => void;
-  onBlur?: (e: any) => void;
+  id?: string;
+  name?: string;
+  value?: string;
+  onChange: (e: any) => void;
+  onBlur: (e: any) => void;
 }
 const InputField: React.FC<Props> = ({
   placeholder,
   type,
+  id,
+  name,
+  value,
   onBlur,
   onChange,
 }) => {
@@ -22,6 +28,9 @@ const InputField: React.FC<Props> = ({
       <input
         placeholder={placeholder}
         type={type === 'password' ? (show ? 'text' : 'password') : type}
+        id={id}
+        name={name}
+        value={value}
         onChange={onChange}
         onBlur={onBlur}
       />

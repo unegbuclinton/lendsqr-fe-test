@@ -1,0 +1,25 @@
+@import '../../../styles/variables.scss';
+
+.user_edu__info {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 18.5rem);
+  row-gap: 30px;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid $cornflowerBlueShadow;
+  margin-bottom: 3rem;
+
+  h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+    color: $indep;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    color: $indep;
+  }
+}

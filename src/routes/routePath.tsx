@@ -1,7 +1,9 @@
 import { Outlet } from 'react-router-dom';
-import SideBar from '../components/molecules/sidebar/SideBar';
+import DashboardLayout from '../components/layout/dashboardLayout/DashboardLayout';
+import EmptyState from '../components/molecules/emptystate/EmptyState';
 import Dashboard from '../pages/dashboard/Dashboard';
 import Login from '../pages/loginPage/Login';
+import UserDetails from '../pages/userdetails/UserDetails';
 
 export const privateRoutes = [
   {
@@ -35,8 +37,17 @@ export const publicRoutes = [
   },
   {
     path: '/test',
-    element: <SideBar />,
+    element: <UserDetails />,
   },
+  {
+    path: '*',
+    element: (
+      <DashboardLayout>
+        <EmptyState />
+      </DashboardLayout>
+    ),
+  },
+
   {
     path: '/sign',
     element: <div>Public</div>,

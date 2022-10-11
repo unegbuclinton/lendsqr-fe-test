@@ -8,10 +8,20 @@
 
 html {
   font-size: 62.5%;
-  // overflow: hidden;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  // overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $eggBlue;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: $cornflowerBlue;
 }

@@ -1,12 +1,13 @@
 @import '../../../styles/variables.scss';
 
 .sidebar_container {
-  height: 82vh;
+  height: 83vh;
   max-width: 18rem;
   background-color: $lightShadow;
   // box-shadow: 0px 5px 20px;
   filter: drop-shadow(3px 0px 20px #fff);
   overflow: auto;
+  padding-bottom: 3rem;
 
   header {
     display: flex;

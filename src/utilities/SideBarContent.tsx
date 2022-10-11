@@ -11,7 +11,7 @@ import {
 
 export const SidebarContent = [
   {
-    route: '/test',
+    route: '/dashboard',
     icon: <DPIconUser />,
     text: 'User',
   },

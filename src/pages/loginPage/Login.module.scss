@@ -23,7 +23,7 @@
       color: $cornflowerBlue;
       margin: 0;
     }
-    p {
+    .login_sub__head {
       font-size: 2rem;
       font-weight: 400;
       color: $indep;
@@ -32,10 +32,15 @@
       margin-bottom: 50px;
     }
 
-    span {
+    .forgot_link {
       font-size: 1.2rem;
       color: $eggBlue;
       font-weight: 600;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      &:hover {
+        color: $cornflowerBlue;
+      }
     }
 
     .button_style {
@@ -47,6 +52,10 @@
       margin-top: 1.5rem;
       padding: 1.4rem;
       border-radius: $border-radius_md;
+      cursor: pointer;
+      &:hover {
+        background-color: $cornflowerBlue;
+      }
     }
   }
 }

@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.back_btn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.user_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $cornflowerBlue;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+.status_btn {
+  display: flex;
+  gap: 2rem;
+
+  .black_list__btn {
+    border: 1px solid $danger;
+    color: $danger;
+    background-color: $transparent;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .active_btn {
+    border: 1px solid $eggBlue;
+    color: $eggBlue;
+    background-color: $transparent;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+}

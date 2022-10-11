@@ -1,0 +1,75 @@
+@import '../../../styles/variables.scss';
+
+.tab_wrapper {
+  height: 100vh;
+  overflow: hidden;
+  padding-bottom: 30rem;
+}
+.tab_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 0rem;
+  background-color: $light;
+  padding-left: 1.5rem;
+  overflow-x: auto;
+  box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.75);
+
+  .inactive_btn {
+    width: 10rem;
+    height: 100%;
+    border: none;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: transparent;
+    padding-bottom: 1.296rem;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: capitalize;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 2px;
+      background: $indep;
+      bottom: 0px;
+      z-index: 1;
+      left: 0;
+    }
+  }
+
+  .active_btn {
+    width: 10rem;
+    height: 100%;
+    border: none;
+    position: relative;
+    display: inline-block;
+    cursor: default;
+    background: transparent;
+    padding-bottom: 1.296rem;
+    font-weight: 400;
+    color: $eggBlue;
+    font-size: 1rem;
+    text-transform: capitalize;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      transition: 0.3s;
+      height: 4px;
+      background: $eggBlue;
+      bottom: 0px;
+      z-index: 1;
+      left: 0;
+    }
+  }
+}
+
+.tab_content {
+  height: 90%;
+  margin-top: 5rem;
+  padding-bottom: 20rem;
+}
