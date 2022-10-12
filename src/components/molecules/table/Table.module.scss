@@ -1,0 +1,23 @@
+@import '../../../styles/variables.scss';
+
+.table_wrapper {
+  padding: 2rem 1.4rem;
+  background-color: #fff;
+  margin-top: 3.5rem;
+
+  .rdt_ {
+    &TableRow {
+      height: 6.2rem;
+      padding: 2.4rem;
+
+      :last-of-type {
+        background-color: red;
+      }
+    }
+    &TableHeadRow {
+      height: 6.1rem;
+      border-bottom: 0;
+      margin-bottom: 1.6rem;
+    }
+  }
+}
